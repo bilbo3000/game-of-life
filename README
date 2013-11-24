@@ -1,0 +1,16 @@
+CSCE 835 
+Game of Life using MPI
+Dongpu Jin
+11/21/2013
+
+How to compile? 
+$ make clean
+$ make
+
+How to run? 
+$ sbatch submit.sh 4 input.txt
+
+where 4 is the number of cores and input.txt is the input file. 
+
+Where to look for output file? 
+-- The output is written to output.txt in the current directory. 
